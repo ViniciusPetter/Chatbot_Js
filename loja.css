@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/*CABECALHO*/
+#pageNavegation{
+    background-color: #161616;
+    align-items: center;
+    text-align: center;
+}
+#logoHeader{
+    height: 50px;
+    width: auto;
+}
+#pageTitleHeader{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    padding: 0px;
+    margin: 5px;
+}
+#pageHeader{
+    padding-top: 1px;
+    background-color: #222222;
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#listOption {
+    padding: 0px;
+    display: inline;
+}
+#listOption>button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    width: 250px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+}
+#listOption>button:hover{
+    border-radius: 7px;
+    background-color: #2e2e2e;
+    border-color: transparent;
+}
+img{
+    width: auto;
+    height: 150px;
+    float: left;
+    margin: 15px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 20px;
+}
+#buyButton,#cancelBuy{
+    font-size: 20px;
+    border-radius: 0px 10px 0px 10px;
+
+}
+#btnshop{
+    background-color: #2e2e2e !important;
+}

@@ -1,0 +1,118 @@
+body{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+/*CABECALHO*/
+#pageNavegation{
+    background-color: #161616;
+    align-items: center;
+    text-align: center;
+}
+#logoHeader{
+    height: 50px;
+    width: auto;
+}
+#pageTitleHeader{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    padding: 0px;
+    margin: 5px;
+}
+#pageHeader{
+    padding-top: 1px;
+    background-color: #222222;
+}
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#listOption {
+    padding: 0px;
+    display: inline;
+}
+#listOption>button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    width: 250px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+}
+#listOption>button:hover{
+    border-radius: 7px;
+    background-color: #2e2e2e;
+    border-color: transparent;
+}
+/*CHAT*/
+#ChatContainer{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#MessagesContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(56, 56, 56);
+    width: 75vw;
+    padding: 20px;
+    max-height: 400px;
+    overflow: auto;
+}
+#InputMessage{
+    align-items: flex-end;
+    text-align: right;
+    border-radius: 10px;
+    background-color: rgb(78, 78, 78);
+    float: right;
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+}
+#BotOutput{
+    align-items: flex-start;
+    text-align: left;
+    border-radius: 10px;
+    background-color: rgb(32, 32, 32);
+    float: left;
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+}
+#textChatInput{
+    padding: 5px;
+    float: right;
+    margin-right: 10px;
+    font-size: 12px
+}
+#textChatOutput{
+    padding: 5px;
+    float: left;
+    margin-left: 10px;
+    font-size: 12px
+}
+/*SEND MESSAGE*/
+#sendMessageText{
+    background-color: rgb(58, 58, 58);
+    border-style: hidden;
+    border-radius: 5px;
+    width: 90%;
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#SendMessageContainer{
+    background-color: rgb(73, 73, 73);
+    border-radius: 5px;
+    width: 75vw;
+    padding: 20px;
+}
+#SendButton{
+    border-radius: 10px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+}
